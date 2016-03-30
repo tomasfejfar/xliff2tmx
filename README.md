@@ -6,6 +6,14 @@ This XSL file can be easily used to convert any bilingual XLIFF file to bilingua
 
 `xsltproc -o some.tmx xliff2tmx.xsl some.xlf`
 
+## Validation
+
+To validate the resulting TMX file you can use the bundled TMX1.4 DTD file. 
+
+`xmllint --valid --noout some.tmx`
+
+Please note, that the DTD file needs to be in the same directory. Alternatively you can [download the DTD](http://www.ttt.org/oscarstandards/tmx/tmx14.dtd) from source. 
+
 ## Batch usage
 
 ### In bash
@@ -18,8 +26,10 @@ Either use any available XSLT processor you have or use `cygwin` to install `xsl
 
 ## Contributing
 
-Either create an issue or (better) create a pull request. 
+Either create an issue or (better) create a pull request. Also if it does not work for your specific file, you can send attach the file to the issue (or contact me for secure transport channel). 
 
 ## License
 
-Licensed under [MIT](https://opensource.org/licenses/MIT).   
+Licensed under [MIT](https://opensource.org/licenses/MIT). 
+
+Made with ❤ for [Lenka](http://www.jsemlenka.cz/) 
