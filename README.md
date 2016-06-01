@@ -26,7 +26,7 @@ Either use any available XSLT processor you have or use `cygwin` to install `xsl
 
 ## Contributing
 
-Either create an issue or (better) create a pull request. Also if it does not work for your specific file, you can send attach the file to the issue (or contact me for secure transport channel). 
+Either create an issue or (better) create a pull request. Also if it does not work for your specific file, you can attach the file to the issue (or contact me for secure transport channel). 
 
 ## License
 
