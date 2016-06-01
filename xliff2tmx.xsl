@@ -5,7 +5,9 @@
     <xsl:template match="/">
         <xsl:variable name="source" select="//file/@source-language" />
         <xsl:variable name="target" select="//file/@target-language" />
-        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE tmx SYSTEM "tmx14.dtd"&gt;</xsl:text>
+        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE tmx SYSTEM "tmx14.dtd"&gt;
+</xsl:text>
+        <xsl:comment> Created with XLIFF2TMX XSL by @tomasfejfar / https://github.com/tomasfejfar/xliff2tmx </xsl:comment>
         <xsl:element name="tmx">
             <xsl:attribute name="version">
                 <xsl:text>1.4</xsl:text>
