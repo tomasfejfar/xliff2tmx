@@ -22,7 +22,7 @@ Please note, that the DTD file needs to be in the same directory. Alternatively 
 
 ## Using on windows
 
-Either use any available XSLT processor you have or use `cygwin` to install `xsltproc`, that can be found in the `libxslt` package.  
+Either use any available XSLT processor you have or use `cygwin` to install `xsltproc`, that can be found in the `libxslt` package. If you get `find: missing argument to '-exec'` error, try running the command in bash. 
 
 ## Contributing
 
