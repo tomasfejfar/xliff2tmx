@@ -1,5 +1,8 @@
 # XLIFF2TMX XSLT transformation
 
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/tomasfejfar/xliff2tmx.svg)](http://isitmaintained.com/project/tomasfejfar/xliff2tmx "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/tomasfejfar/xliff2tmx.svg)](http://isitmaintained.com/project/tomasfejfar/xliff2tmx "Percentage of issues still open")
+
 This XSL file can be easily used to convert any bilingual XLIFF file to bilingual TMX. It's with 80/20 rule in mind. It will probably work for most simple XLIFFs, but may break for more complex ones. 
 
 ## Usage
